@@ -61,7 +61,7 @@ Launch the tool and provide your IAM Keys and snapshot and AWSnap will start the
 
 ### **Step 3: Explore the Files**
 Once the progress bar hits 100%, your snapshot is mounted! You can now browse the drive just like a normal folder on your computer.
-![Successful Mount](./assets/'Mount%20successful'.png)
+![Successful Mount](./assets/Mount%20successful.png)
 ![Extracting Data](./assets/finding%20secrets.png)
 
 ## ⚠️ Warning

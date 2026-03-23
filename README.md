@@ -1,4 +1,4 @@
-# AWSnap - **EBS Snapshot Triage & Smart Exfiltration**
+# AWSnap - **EBS Snapshot Data Exfiltration**
 
 **AWSnap** is an offensive security tool built for the "Smash & Grab" phase of a cloud engagement. It allows you to mount and browse AWS EBS Snapshots locally in minutes by downloading only the critical bits of data (Metadata & Inodes).
 

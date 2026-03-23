@@ -1,0 +1,6 @@
+*.img
+*.log
+__pycache__/
+.env
+awsnap_mount/
+.aws/

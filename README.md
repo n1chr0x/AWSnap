@@ -1,5 +1,4 @@
-# AWSnap ⚡
-### **EBS Snapshot Triage & Smart Exfiltration**
+# AWSnap - **EBS Snapshot Triage & Smart Exfiltration**
 **Author:** @n1chr0x  
 **License:** MIT
 

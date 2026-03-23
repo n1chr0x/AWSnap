@@ -1,6 +1,4 @@
 # AWSnap - **EBS Snapshot Triage & Smart Exfiltration**
-**Author:** @n1chr0x  
-**License:** MIT
 
 **AWSnap** is an offensive security tool built for the "Smash & Grab" phase of a cloud engagement. It allows you to mount and browse AWS EBS Snapshots locally in seconds by downloading only the critical bits of data (Metadata & Inodes).
 
@@ -65,6 +63,9 @@ Once the progress bar hits 100%, your snapshot is mounted! You can now browse th
 
 ## ⚠️ Warning
 Because this tool uses Sampling, very large files (like big databases or encrypted zip files) might be "holey." AWSnap is meant for finding SSH keys, config files, and credentials, not for full system backups.
+
+**Author:** @n1chr0x  
+**License:** MIT
 
 ## Happy Hunting! 🕵️♂️
 

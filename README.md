@@ -14,14 +14,7 @@ AWSnap was born from a simple realization: **Traditional snapshot analysis is cu
 **AWSnap bypasses the entire infrastructure layer.** By utilizing the EBS Direct APIs, it treats the cloud snapshot like a local streaming device. This "Lazy-by-Design" approach isn't just about saving time—it’s about:
 * **Zero Infrastructure Footprint:** No instances, no volume costs, no SSH management.
 * **Forensic Integrity:** Read-only access by default without "touching" the AWS production environment.
-* **Speed-to-Data:** Go from Snapshot ID to `ls -la` in seconds, not minutes.                                                                       
-
-## 🚀 Why is AWSnap Special?
-
-* **Smart Sampling:** It "slurps" the filesystem map (Inode tables) first, so you can `ls` the drive immediately.
-* **Sparse File Magic:** It creates a virtual 100GB disk that takes up almost zero space on your computer until you start reading files.
-* **Auto-Repair:** It automatically fixes "Corrupt GPT" headers and aligns partitions so you don't have to manually calculate offsets.
-* **Low Footprint** Operates purely via EBS Direct APIs. No EC2 instances are launched, keeping your footprint tiny.
+* **Speed-to-Data:** Go from Snapshot ID to `ls -la` in minutes.                                                                       
 
 ---
 

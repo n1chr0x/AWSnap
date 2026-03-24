@@ -46,7 +46,7 @@ sudo ./setup.sh
 ## 🛠️ Step-by-Step Guide
 
 ### **Step 1: Connect to AWS**
-Launch the tool and provide your IAM Keys and snapshot and AWSnap will start the "Smart Slurp."
+Launch the tool and provide your IAM Key & snapshot ID and AWSnap will start the "Smart Slurp."
 ![Configuring AWSnap](./assets/Startingpoint.png)
 
 ### **Step 3: Explore the Files**

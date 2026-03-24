@@ -28,4 +28,4 @@ pip3 install boto3 tqdm --break-system-packages > /dev/null 2>&1
 echo -e "${GREEN}Done!${NC}"
 
 echo -e "\n${GREEN}✅ AWSnap is ready for action, @n1chr0x!${NC}"
-echo "Run it with: sudo python3 awsnap.py"
+echo "Run it with: sudo python3 AWSnap.py"
